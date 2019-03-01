@@ -21,7 +21,7 @@ python -m rasa_core.train -d domain.yml -s stories.md -o models/dialogue -c poli
 python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 ```
 
-如果有自定义action，请执行此命令，注意把此处的`action_name`换成自定义的action的问题件名，如果你的action文件叫做action.py，则写--actions action
+如果有自定义action，请执行此命令，注意把此处的`action_name`换成自定义的action的文件名，如果你的action文件叫做action.py，则写--actions action
 ```
 python -m rasa_core_sdk.endpoint --actions action_name
 ```
