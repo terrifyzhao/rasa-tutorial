@@ -1,6 +1,6 @@
 # Rasa中文demo
 
-本文代码配合以下博文食用，味道更加
+本文代码配合以下博文使用
 
 [Rasa使用指南01](https://terrifyzhao.github.io/2018/09/17/Rasa%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%9701.html)
 
