@@ -1,0 +1,38 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_happy
+- utter_unhappy
+- action_ask_weather
+- utter_weather_good
+config:
+  store_entities_as_slots: true
+entities:
+- city
+forms: []
+intents:
+- greet:
+    use_entities: true
+- mood_happy:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- ask_weather:
+    use_entities: true
+- weather_state:
+    use_entities: true
+slots:
+  city:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_greet:
+  - text: 你好，你今天过的怎么样
+  utter_happy:
+  - text: 那很棒棒哦
+  utter_unhappy:
+  - text: 咋了，可以告诉我吗
+  utter_weather_good:
+  - text: '{city}天气很好呢'

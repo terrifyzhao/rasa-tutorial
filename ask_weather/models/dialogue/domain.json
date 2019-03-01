@@ -1,0 +1,23 @@
+{
+  "states": [
+    "intent_ask_weather",
+    "intent_greet",
+    "intent_mood_happy",
+    "intent_mood_unhappy",
+    "intent_weather_state",
+    "entity_city",
+    "slot_city_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_utter_greet",
+    "prev_utter_happy",
+    "prev_utter_unhappy",
+    "prev_action_ask_weather",
+    "prev_utter_weather_good"
+  ]
+}
